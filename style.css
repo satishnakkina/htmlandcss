@@ -1,0 +1,104 @@
+body{
+  font-family: Arial;
+  background-color:#C3DDDD;
+    background-image: url("https://i.pinimg.com/736x/a4/29/26/a42926e59b26c50793ea006becdbbea5.jpg");
+  background-attachment: fixed;
+
+}
+div.nav ul{
+  list-style-type: none;
+  background-color: yellow;
+  padding:0;
+  margin:0;
+}
+li a{
+  padding:10px;
+  float:left;
+  text-decoration: none;
+  display: block;
+  color:white;
+}
+article h1{
+ text-align: center;
+}
+li a:hover{
+  background-color: red;
+  color:white;
+  font-size: 1.2em;
+}
+header{
+  width: 100%;
+  background-color:none;
+  line-height: 1.8;
+  color: white;
+  margin-left: 0;
+  margin-right: 400px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+  padding:5px;
+  overflow: hidden;
+  line-height:10px;
+}
+hgroup{
+  width:70%;
+  float:left;
+}
+
+div.pollution img{
+  float:right;
+  width: 20%;
+  margin: 10px;
+  border-width: 6px;
+  border-color: white;
+  border-style:solid;
+
+}
+div.pollution h1{
+  margin-left:350px;
+  margin-right: 350px;
+  padding:10px;
+
+}
+div.pollution h1:hover{
+  color:red;
+}
+article.air{
+  margin-bottom: 100px;
+}
+div.pollution{
+  width: 100%;
+  background-color:Environmental;
+  text-indent: 50px;
+  margin-left: 0;
+  margin-right:0;
+  color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-color:white;
+  padding:5px;
+  overflow: hidden;
+}
+div.pollution a{
+  color:white;
+  overflow: hidden;
+  margin-left:10px;
+  margin-right:10px;
+  padding:0;
+  text-decoration: none;
+}
+div.pollution a:hover{
+  color:red;
+}
+
+div.foot{
+  width: 100%;
+  background-color:none;
+  color: white;
+  margin-left: 0;
+  margin-right:auto;
+  border-color: white;
+  border-width: 10px;
+  border-style: solid;
+  padding-left: 5px;
+}
